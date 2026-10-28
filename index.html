@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — CryptoAlert</title>
+<meta name="description" content="Politique de confidentialité de l'application Android CryptoAlert. Aucune donnée personnelle collectée.">
+<style>
+  :root {
+    --fond: #f6f7fd;
+    --carte: #ffffff;
+    --texte: #14152b;
+    --attenue: #5b5e7a;
+    --filet: #e3e6f2;
+    --lien: #5a37e8;
+    --violet: #6c4dff;
+    --magenta: #ff3d91;
+    --cyan: #00c2ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fond: #0e0f1c;
+      --carte: #1a1c30;
+      --texte: #f2f3fa;
+      --attenue: #a8acc8;
+      --filet: #2b2e48;
+      --lien: #a394ff;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fond: #0e0f1c;
+    --carte: #1a1c30;
+    --texte: #f2f3fa;
+    --attenue: #a8acc8;
+    --filet: #2b2e48;
+    --lien: #a394ff;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fond);
+    color: var(--texte);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  header {
+    background: linear-gradient(120deg, var(--violet), var(--magenta), var(--cyan));
+    color: #fff;
+    padding: 48px 16px 40px;
+  }
+  .bande { max-width: 760px; margin: 0 auto; }
+  header h1 { margin: 0; font-size: 2rem; line-height: 1.2; }
+  header p { margin: 10px 0 0; opacity: 0.92; }
+  nav { margin-top: 24px; display: flex; gap: 10px; flex-wrap: wrap; }
+  nav a {
+    display: inline-block;
+    padding: 8px 16px;
+    min-height: 44px;
+    line-height: 28px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.22);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav a:hover, nav a:focus { background: rgba(255, 255, 255, 0.34); }
+
+  main { max-width: 760px; margin: 0 auto; padding: 0 16px 72px; }
+  section { margin-top: 40px; }
+  h2 { font-size: 1.5rem; margin: 48px 0 8px; }
+  h3 { font-size: 1.1rem; margin: 32px 0 6px; }
+  p, ul { margin: 12px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--lien); }
+  .maj { color: var(--attenue); font-size: 0.95rem; }
+  .carte {
+    background: var(--carte);
+    border: 1px solid var(--filet);
+    border-radius: 16px;
+    padding: 4px 20px;
+    margin-top: 20px;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--filet); vertical-align: top; }
+  th { color: var(--attenue); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  tr:last-child td { border-bottom: 0; }
+  .sep { border: 0; border-top: 1px solid var(--filet); margin: 64px 0 0; }
+  footer { max-width: 760px; margin: 0 auto; padding: 24px 16px 56px; color: var(--attenue); font-size: 0.92rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bande">
+    <h1>CryptoAlert</h1>
+    <p>Politique de confidentialité · Privacy Policy</p>
+    <nav>
+      <a href="#fr">Français</a>
+      <a href="#en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section id="fr" lang="fr">
+  <h2>Politique de confidentialité</h2>
+  <p class="maj">Dernière mise à jour : 21 octobre 2026</p>
+
+  <h3>En une phrase</h3>
+  <p>CryptoAlert ne collecte aucune donnée personnelle, ne crée aucun compte, et n'envoie rien vous concernant à qui que ce soit.</p>
+
+  <h3>Ce qui est stocké, et où</h3>
+  <p>Tout ce que vous créez dans l'application reste <strong>sur votre téléphone</strong>, dans l'espace privé de l'application :</p>
+  <ul>
+    <li>la liste des cryptomonnaies que vous suivez, et leur ordre ;</li>
+    <li>vos alertes de prix : prix cible, sens, type et annotation ;</li>
+    <li>une copie du catalogue des cryptomonnaies, pour que la recherche fonctionne sans réseau.</li>
+  </ul>
+  <p>Ces données ne sont jamais transmises. Elles disparaissent si vous désinstallez l'application.</p>
+
+  <h3>Ce qui sort de votre téléphone</h3>
+  <p>Uniquement des demandes de <strong>prix publics</strong>, adressées à :</p>
+  <div class="carte">
+    <table>
+      <thead><tr><th scope="col">Service</th><th scope="col">Ce qui est envoyé</th></tr></thead>
+      <tbody>
+        <tr><td>CoinMarketCap</td><td>les identifiants des cryptomonnaies dont vous voulez le prix</td></tr>
+        <tr><td>Kraken</td><td>le ticker d'une cryptomonnaie</td></tr>
+        <tr><td>Binance</td><td>le ticker d'une cryptomonnaie</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Ces demandes ne contiennent <strong>aucune donnée vous identifiant</strong> : ni compte, ni identifiant d'appareil, ni adresse e-mail. Comme pour toute connexion Internet, ces services voient votre adresse IP ; leurs politiques respectives s'appliquent à ce qu'ils en font.</p>
+  <p>Les logos des cryptomonnaies sont des images publiques téléchargées depuis le serveur d'images de CoinMarketCap.</p>
+
+  <h3>Ce que l'application ne fait pas</h3>
+  <ul>
+    <li>Aucune publicité, aucun traceur, aucune mesure d'audience.</li>
+    <li>Aucun compte, aucune inscription, aucune connexion.</li>
+    <li>Aucun accès à vos contacts, photos, fichiers, position ou micro.</li>
+    <li><strong>Aucun accès à un portefeuille, une clé privée ou une phrase de récupération.</strong> L'application ne lit que des prix publics et ne peut effectuer aucune transaction.</li>
+  </ul>
+
+  <h3>Autorisations demandées</h3>
+  <div class="carte">
+    <table>
+      <thead><tr><th scope="col">Autorisation</th><th scope="col">Pourquoi</th></tr></thead>
+      <tbody>
+        <tr><td>Internet</td><td>relever les prix</td></tr>
+        <tr><td>Notifications</td><td>vous prévenir quand une alerte est atteinte</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>L'autorisation de notification peut être refusée : l'application continue de fonctionner, mais aucune alerte ne pourra vous prévenir.</p>
+
+  <h3>Enfants</h3>
+  <p>L'application ne s'adresse pas aux enfants et ne collecte sciemment aucune donnée les concernant.</p>
+
+  <h3>Modifications</h3>
+  <p>Toute modification de cette politique sera publiée à cette même adresse, avec une nouvelle date de mise à jour.</p>
+
+  <h3>Contact</h3>
+  <p>Pour toute question sur cette politique ou sur vos données : <a href="mailto:arnaud_29s@hotmail.fr">arnaud_29s@hotmail.fr</a></p>
+</section>
+
+<hr class="sep">
+
+<section id="en" lang="en">
+  <h2>Privacy Policy</h2>
+  <p class="maj">Last updated: 21 October 2026</p>
+
+  <h3>In one sentence</h3>
+  <p>CryptoAlert collects no personal data, creates no account, and sends nothing about you to anyone.</p>
+
+  <h3>What is stored, and where</h3>
+  <p>Everything you create stays <strong>on your phone</strong>, in the app's private storage:</p>
+  <ul>
+    <li>the list of cryptocurrencies you follow, and their order;</li>
+    <li>your price alerts: target price, direction, type and note;</li>
+    <li>a copy of the cryptocurrency catalogue, so search works offline.</li>
+  </ul>
+  <p>This data is never transmitted. It is deleted if you uninstall the app.</p>
+
+  <h3>What leaves your phone</h3>
+  <p>Only requests for <strong>public prices</strong>, sent to:</p>
+  <div class="carte">
+    <table>
+      <thead><tr><th scope="col">Service</th><th scope="col">What is sent</th></tr></thead>
+      <tbody>
+        <tr><td>CoinMarketCap</td><td>the identifiers of the cryptocurrencies you want prices for</td></tr>
+        <tr><td>Kraken</td><td>a cryptocurrency ticker</td></tr>
+        <tr><td>Binance</td><td>a cryptocurrency ticker</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>These requests contain <strong>no identifying data</strong>: no account, no device identifier, no email address. As with any Internet connection, these services see your IP address; their own policies govern what they do with it.</p>
+  <p>Cryptocurrency logos are public images downloaded from CoinMarketCap's image server.</p>
+
+  <h3>What the app does not do</h3>
+  <ul>
+    <li>No advertising, no trackers, no analytics.</li>
+    <li>No account, no sign-up, no login.</li>
+    <li>No access to your contacts, photos, files, location or microphone.</li>
+    <li><strong>No access to any wallet, private key or recovery phrase.</strong> The app only reads public prices and cannot perform any transaction.</li>
+  </ul>
+
+  <h3>Permissions requested</h3>
+  <div class="carte">
+    <table>
+      <thead><tr><th scope="col">Permission</th><th scope="col">Why</th></tr></thead>
+      <tbody>
+        <tr><td>Internet</td><td>to read prices</td></tr>
+        <tr><td>Notifications</td><td>to tell you when an alert is reached</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The notification permission can be denied: the app keeps working, but no alert will be able to reach you.</p>
+
+  <h3>Children</h3>
+  <p>The app is not directed at children and does not knowingly collect any data about them.</p>
+
+  <h3>Changes</h3>
+  <p>Any change to this policy will be published at this same address, with a new last-updated date.</p>
+
+  <h3>Contact</h3>
+  <p>For any question about this policy or about your data: <a href="mailto:arnaud_29s@hotmail.fr">arnaud_29s@hotmail.fr</a></p>
+</section>
+
+</main>
+
+<footer>
+  <p>CryptoAlert — application Android d'alertes de prix crypto.</p>
+</footer>
+
+</body>
+</html>

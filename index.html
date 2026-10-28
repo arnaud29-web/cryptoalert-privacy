@@ -152,9 +152,14 @@
       <tbody>
         <tr><td>Internet</td><td>relever les prix</td></tr>
         <tr><td>Notifications</td><td>vous prévenir quand une alerte est atteinte</td></tr>
+        <tr><td>État du réseau</td><td>savoir si le téléphone est connecté avant de vérifier</td></tr>
+        <tr><td>Réveil de l'appareil</td><td>laisser une vérification en arrière-plan aboutir</td></tr>
+        <tr><td>Fin de démarrage</td><td>replanifier la surveillance après un redémarrage</td></tr>
+        <tr><td>Service au premier plan</td><td>exécuter la vérification planifiée</td></tr>
       </tbody>
     </table>
   </div>
+  <p>Les quatre dernières sont demandées par le composant Android qui exécute la vérification en arrière-plan. Elles sont accordées automatiquement, ne sont pas des autorisations « dangereuses » au sens d'Android, et n'ouvrent l'accès à aucune donnée vous concernant.</p>
   <p>L'autorisation de notification peut être refusée : l'application continue de fonctionner, mais aucune alerte ne pourra vous prévenir.</p>
 
   <h3>Enfants</h3>
@@ -215,9 +220,14 @@
       <tbody>
         <tr><td>Internet</td><td>to read prices</td></tr>
         <tr><td>Notifications</td><td>to tell you when an alert is reached</td></tr>
+        <tr><td>Network state</td><td>to know whether the phone is online before checking</td></tr>
+        <tr><td>Wake lock</td><td>to let a background check finish</td></tr>
+        <tr><td>Boot completed</td><td>to reschedule monitoring after a restart</td></tr>
+        <tr><td>Foreground service</td><td>to run the scheduled check</td></tr>
       </tbody>
     </table>
   </div>
+  <p>The last four are requested by the Android component that runs the background check. They are granted automatically, are not &ldquo;dangerous&rdquo; permissions in Android's sense, and give access to no data about you.</p>
   <p>The notification permission can be denied: the app keeps working, but no alert will be able to reach you.</p>
 
   <h3>Children</h3>

@@ -12,8 +12,9 @@ La source est `docs/index.html` dans le dépôt de l'application. On modifie
 mettre à jour la date en haut de chaque version linguistique, et rester
 d'accord avec `PRIVACY.md`, le texte de référence.
 
-## Activer la publication
+## En ligne
 
-Dans *Settings* du dépôt, section *Pages* : source **Deploy from a branch**,
-branche `main`, dossier `/ (root)`. La page est servie quelques minutes plus
-tard.
+https://arnaud29-web.github.io/cryptoalert-privacy/
+
+Servie par GitHub Pages depuis la branche `main`, dossier racine. Un push
+suffit a mettre la page a jour ; la reconstruction prend une minute.
